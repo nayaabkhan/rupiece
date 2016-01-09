@@ -1,16 +1,16 @@
-import express from 'express';
+var express = require('express');
 
-const app = express();
+var app = express();
 
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
-app.get('/', (req, res) => {
+app.get('/', function (req, res) {
   res.render('index');
 });
 
-const port = process.env.PORT || 3000;
+var port = process.env.PORT || 3000;
 
-const server = app.listen(port, () => {
-  console.log(`Service started on port : ${port}`);
+var server = app.listen(port, function () {
+  console.log('Service started on port : ' + port);
 });
