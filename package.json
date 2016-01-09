@@ -28,8 +28,6 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "babel": "^6.3.26",
-    "babel-cli": "^6.4.0",
     "ejs": "^2.3.4",
     "express": "^4.13.3",
     "react": "^0.14.6",
