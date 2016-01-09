@@ -2,6 +2,7 @@
   "name": "rupiece",
   "version": "0.0.1",
   "description": "Rupiece – App to record and split expenses between friends",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
