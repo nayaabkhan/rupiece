@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./app/app.js",
+  entry: "./client.js",
 
   module: {
     loaders: [
@@ -8,7 +8,7 @@ module.exports = {
   },
 
   output: {
-    filename: "app.js",
+    filename: "build.js",
     path: __dirname + "/public"
   }
 }

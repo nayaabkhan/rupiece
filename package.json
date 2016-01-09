@@ -28,10 +28,13 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+    "babel-register": "^6.3.13",
     "ejs": "^2.3.4",
     "express": "^4.13.3",
+    "history": "^1.17.0",
     "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "react-dom": "^0.14.6",
+    "react-router": "^1.0.3"
   },
   "engines": {
     "node": "4.1.2"
